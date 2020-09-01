@@ -1,4 +1,4 @@
-# CCXT – CryptoCurrency eXchange Trading Library
+# DNFX – CryptoCurrency eXchange Trading Library
 
 [![Build Status](https://travis-ci.org/ccxt/ccxt.svg?branch=master)](https://travis-ci.org/ccxt/ccxt) [![npm](https://img.shields.io/npm/v/ccxt.svg)](https://npmjs.com/package/ccxt) [![PyPI](https://img.shields.io/pypi/v/ccxt.svg)](https://pypi.python.org/pypi/ccxt) [![NPM Downloads](https://img.shields.io/npm/dm/ccxt.svg)](https://www.npmjs.com/package/ccxt) [![Discord](https://img.shields.io/discord/690203284119617602?logo=discord&logoColor=white)](https://discord.gg/dhzSKYU) [![Supported Exchanges](https://img.shields.io/badge/exchanges-122-blue.svg)](https://github.com/ccxt/ccxt/wiki/Exchange-Markets) [![Open Collective](https://opencollective.com/ccxt/backers/badge.svg)](https://opencollective.com/ccxt)
 [![Twitter Follow](https://img.shields.io/twitter/follow/ccxt_official.svg?style=social&label=CCXT)](https://twitter.com/ccxt_official)
@@ -7,7 +7,7 @@ A JavaScript / Python / PHP library for cryptocurrency trading and e-commerce wi
 
 ### [Install](#install) · [Usage](#usage) · [Manual](https://github.com/ccxt/ccxt/wiki) · [FAQ](https://github.com/ccxt/ccxt/wiki/FAQ) · [Examples](https://github.com/ccxt/ccxt/tree/master/examples) · [Contributing](https://github.com/ccxt/ccxt/blob/master/CONTRIBUTING.md) · [Social](#social)
 
-The **CCXT** library is used to connect and trade with cryptocurrency exchanges and payment processing services worldwide. It provides quick access to market data for storage, analysis, visualization, indicator development, algorithmic trading, strategy backtesting, bot programming, and related software engineering.
+The **DNFX** library is used to connect and trade with cryptocurrency exchanges and payment processing services worldwide. It provides quick access to market data for storage, analysis, visualization, indicator development, algorithmic trading, strategy backtesting, bot programming, and related software engineering.
 
 It is intended to be used by **coders, developers, technically-skilled traders, data-scientists and financial analysts** for building trading algorithms.
 
@@ -21,7 +21,7 @@ Current feature list:
 
 ## Sponsored Promotion
 
-[![CCXT Pro – A JavaScript / Python / PHP cryptocurrency exchange trading WebSocket API for professionals](https://user-images.githubusercontent.com/1294454/83935830-0061e400-a7c6-11ea-8215-92983a611531.png)](https://ccxt.pro) **[A JavaScript / Python / PHP cryptocurrency exchange trading WebSocket API for professionals](https://ccxt.pro)**
+[![DNFX Pro – A JavaScript / Python / PHP cryptocurrency exchange trading WebSocket API for professionals](https://user-images.githubusercontent.com/1294454/83935830-0061e400-a7c6-11ea-8215-92983a611531.png)](https://ccxt.pro) **[A JavaScript / Python / PHP cryptocurrency exchange trading WebSocket API for professionals](https://dnfx.pro)**
 
 
 ## See Also
@@ -37,23 +37,23 @@ Current feature list:
 
 | logo                                                                                                                                                                               | id            | name                                                                        | ver | doc                                                                                | certified                                                                                                                   | pro                                                                          |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|-----------------------------------------------------------------------------|:---:|:----------------------------------------------------------------------------------:|-----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| [![binance](https://user-images.githubusercontent.com/1294454/29604020-d5483cdc-87ee-11e7-94c7-d1a8d9169293.jpg)](https://www.binance.com/?ref=10205187)                           | binance       | [Binance](https://www.binance.com/?ref=10205187)                            | *   | [API](https://binance-docs.github.io/apidocs/spot/en)                              | [![CCXT Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) | [![CCXT Pro](https://img.shields.io/badge/CCXT-Pro-black)](https://ccxt.pro) |
-| [![bitfinex](https://user-images.githubusercontent.com/1294454/27766244-e328a50c-5ed2-11e7-947b-041416579bb3.jpg)](https://www.bitfinex.com/?refcode=P61eYxFL)                     | bitfinex      | [Bitfinex](https://www.bitfinex.com/?refcode=P61eYxFL)                      | 1   | [API](https://docs.bitfinex.com/v1/docs)                                           | [![CCXT Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) | [![CCXT Pro](https://img.shields.io/badge/CCXT-Pro-black)](https://ccxt.pro) |
-| [![bittrex](https://user-images.githubusercontent.com/51840849/87153921-edf53180-c2c0-11ea-96b9-f2a9a95a455b.jpg)](https://bittrex.com/Account/Register?referralCode=1ZE-G0G-M3B)  | bittrex       | [Bittrex](https://bittrex.com/Account/Register?referralCode=1ZE-G0G-M3B)    | 1.1 | [API](https://bittrex.github.io/api/)                                              | [![CCXT Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) | [![CCXT Pro](https://img.shields.io/badge/CCXT-Pro-black)](https://ccxt.pro) |
-| [![bitvavo](https://user-images.githubusercontent.com/1294454/83165440-2f1cf200-a116-11ea-9046-a255d09fb2ed.jpg)](https://bitvavo.com/?a=24F34952F7)                               | bitvavo       | [Bitvavo](https://bitvavo.com/?a=24F34952F7)                                | 2   | [API](https://docs.bitvavo.com/)                                                   | [![CCXT Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) | [![CCXT Pro](https://img.shields.io/badge/CCXT-Pro-black)](https://ccxt.pro) |
-| [![bytetrade](https://user-images.githubusercontent.com/1294454/67288762-2f04a600-f4e6-11e9-9fd6-c60641919491.jpg)](https://www.byte-trade.com)                                    | bytetrade     | [ByteTrade](https://www.byte-trade.com)                                     | *   | [API](https://github.com/Bytetrade/bytetrade-official-api-docs/wiki)               | [![CCXT Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) |                                                                              |
-| [![currencycom](https://user-images.githubusercontent.com/1294454/83718672-36745c00-a63e-11ea-81a9-677b1f789a4d.jpg)](https://currency.com/trading/signup?c=362jaimv&pid=referral) | currencycom   | [Currency.com](https://currency.com/trading/signup?c=362jaimv&pid=referral) | 1   | [API](https://currency.com/api)                                                    | [![CCXT Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) | [![CCXT Pro](https://img.shields.io/badge/CCXT-Pro-black)](https://ccxt.pro) |
-| [![eterbase](https://user-images.githubusercontent.com/1294454/82067900-faeb0f80-96d9-11ea-9f22-0071cfcb9871.jpg)](https://eterbase.exchange/invite/1wjjh4Pe)                      | eterbase      | [Eterbase](https://eterbase.exchange/invite/1wjjh4Pe)                       | 1   | [API](https://developers.eterbase.exchange)                                        | [![CCXT Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) |                                                                              |
-| [![ftx](https://user-images.githubusercontent.com/1294454/67149189-df896480-f2b0-11e9-8816-41593e17f9ec.jpg)](https://ftx.com/#a=1623029)                                          | ftx           | [FTX](https://ftx.com/#a=1623029)                                           | *   | [API](https://github.com/ftexchange/ftx)                                           | [![CCXT Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) | [![CCXT Pro](https://img.shields.io/badge/CCXT-Pro-black)](https://ccxt.pro) |
-| [![idex](https://user-images.githubusercontent.com/1294454/63693236-3415e380-c81c-11e9-8600-ba1634f1407d.jpg)](https://idex.market)                                                | idex          | [IDEX](https://idex.market)                                                 | *   | [API](https://docs.idex.market/)                                                   | [![CCXT Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) |                                                                              |
-| [![kraken](https://user-images.githubusercontent.com/51840849/76173629-fc67fb00-61b1-11ea-84fe-f2de582f58a3.jpg)](https://www.kraken.com)                                          | kraken        | [Kraken](https://www.kraken.com)                                            | 0   | [API](https://www.kraken.com/features/api)                                         | [![CCXT Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) | [![CCXT Pro](https://img.shields.io/badge/CCXT-Pro-black)](https://ccxt.pro) |
-| [![upbit](https://user-images.githubusercontent.com/1294454/49245610-eeaabe00-f423-11e8-9cba-4b0aed794799.jpg)](https://upbit.com)                                                 | upbit         | [Upbit](https://upbit.com)                                                  | 1   | [API](https://docs.upbit.com/docs/%EC%9A%94%EC%B2%AD-%EC%88%98-%EC%A0%9C%ED%95%9C) | [![CCXT Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) | [![CCXT Pro](https://img.shields.io/badge/CCXT-Pro-black)](https://ccxt.pro) |
-| [![wavesexchange](https://user-images.githubusercontent.com/1294454/84547058-5fb27d80-ad0b-11ea-8711-78ac8b3c7f31.jpg)](https://waves.exchange)                                    | wavesexchange | [Waves.Exchange](https://waves.exchange)                                    | *   | [API](https://docs.waves.exchange)                                                 | [![CCXT Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) |                                                                              |
-| [![xena](https://user-images.githubusercontent.com/51840849/87489843-bb469280-c64c-11ea-91aa-69c6326506af.jpg)](https://xena.exchange)                                             | xena          | [Xena Exchange](https://xena.exchange)                                      | *   | [API](https://support.xena.exchange/support/solutions/44000808700)                 | [![CCXT Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) |                                                                              |
+| [![binance](https://user-images.githubusercontent.com/1294454/29604020-d5483cdc-87ee-11e7-94c7-d1a8d9169293.jpg)](https://www.binance.com/?ref=10205187)                           | binance       | [Binance](https://www.binance.com/?ref=10205187)                            | *   | [API](https://binance-docs.github.io/apidocs/spot/en)                              | [![DNFX Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) | [![DNFX Pro](https://img.shields.io/badge/CCXT-Pro-black)](https://ccxt.pro) |
+| [![bitfinex](https://user-images.githubusercontent.com/1294454/27766244-e328a50c-5ed2-11e7-947b-041416579bb3.jpg)](https://www.bitfinex.com/?refcode=P61eYxFL)                     | bitfinex      | [Bitfinex](https://www.bitfinex.com/?refcode=P61eYxFL)                      | 1   | [API](https://docs.bitfinex.com/v1/docs)                                           | [![DNFX Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) | [![DNFX Pro](https://img.shields.io/badge/CCXT-Pro-black)](https://ccxt.pro) |
+| [![bittrex](https://user-images.githubusercontent.com/51840849/87153921-edf53180-c2c0-11ea-96b9-f2a9a95a455b.jpg)](https://bittrex.com/Account/Register?referralCode=1ZE-G0G-M3B)  | bittrex       | [Bittrex](https://bittrex.com/Account/Register?referralCode=1ZE-G0G-M3B)    | 1.1 | [API](https://bittrex.github.io/api/)                                              | [![DNFX Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) | [![DNFX Pro](https://img.shields.io/badge/CCXT-Pro-black)](https://ccxt.pro) |
+| [![bitvavo](https://user-images.githubusercontent.com/1294454/83165440-2f1cf200-a116-11ea-9046-a255d09fb2ed.jpg)](https://bitvavo.com/?a=24F34952F7)                               | bitvavo       | [Bitvavo](https://bitvavo.com/?a=24F34952F7)                                | 2   | [API](https://docs.bitvavo.com/)                                                   | [![DNFX Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) | [![DNFX Pro](https://img.shields.io/badge/CCXT-Pro-black)](https://ccxt.pro) |
+| [![bytetrade](https://user-images.githubusercontent.com/1294454/67288762-2f04a600-f4e6-11e9-9fd6-c60641919491.jpg)](https://www.byte-trade.com)                                    | bytetrade     | [ByteTrade](https://www.byte-trade.com)                                     | *   | [API](https://github.com/Bytetrade/bytetrade-official-api-docs/wiki)               | [![DNFX Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) |                                                                              |
+| [![currencycom](https://user-images.githubusercontent.com/1294454/83718672-36745c00-a63e-11ea-81a9-677b1f789a4d.jpg)](https://currency.com/trading/signup?c=362jaimv&pid=referral) | currencycom   | [Currency.com](https://currency.com/trading/signup?c=362jaimv&pid=referral) | 1   | [API](https://currency.com/api)                                                    | [![DNFX Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) | [![DNFX Pro](https://img.shields.io/badge/CCXT-Pro-black)](https://ccxt.pro) |
+| [![eterbase](https://user-images.githubusercontent.com/1294454/82067900-faeb0f80-96d9-11ea-9f22-0071cfcb9871.jpg)](https://eterbase.exchange/invite/1wjjh4Pe)                      | eterbase      | [Eterbase](https://eterbase.exchange/invite/1wjjh4Pe)                       | 1   | [API](https://developers.eterbase.exchange)                                        | [![DNFX Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) |                                                                              |
+| [![ftx](https://user-images.githubusercontent.com/1294454/67149189-df896480-f2b0-11e9-8816-41593e17f9ec.jpg)](https://ftx.com/#a=1623029)                                          | ftx           | [FTX](https://ftx.com/#a=1623029)                                           | *   | [API](https://github.com/ftexchange/ftx)                                           | [![DNFX Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) | [![DNFX Pro](https://img.shields.io/badge/CCXT-Pro-black)](https://ccxt.pro) |
+| [![idex](https://user-images.githubusercontent.com/1294454/63693236-3415e380-c81c-11e9-8600-ba1634f1407d.jpg)](https://idex.market)                                                | idex          | [IDEX](https://idex.market)                                                 | *   | [API](https://docs.idex.market/)                                                   | [![DNFX Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) |                                                                              |
+| [![kraken](https://user-images.githubusercontent.com/51840849/76173629-fc67fb00-61b1-11ea-84fe-f2de582f58a3.jpg)](https://www.kraken.com)                                          | kraken        | [Kraken](https://www.kraken.com)                                            | 0   | [API](https://www.kraken.com/features/api)                                         | [![DNFX Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) | [![CCXT Pro](https://img.shields.io/badge/CCXT-Pro-black)](https://ccxt.pro) |
+| [![upbit](https://user-images.githubusercontent.com/1294454/49245610-eeaabe00-f423-11e8-9cba-4b0aed794799.jpg)](https://upbit.com)                                                 | upbit         | [Upbit](https://upbit.com)                                                  | 1   | [API](https://docs.upbit.com/docs/%EC%9A%94%EC%B2%AD-%EC%88%98-%EC%A0%9C%ED%95%9C) | [![DNFX Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) | [![DNFX Pro](https://img.shields.io/badge/CCXT-Pro-black)](https://ccxt.pro) |
+| [![wavesexchange](https://user-images.githubusercontent.com/1294454/84547058-5fb27d80-ad0b-11ea-8711-78ac8b3c7f31.jpg)](https://waves.exchange)                                    | wavesexchange | [Waves.Exchange](https://waves.exchange)                                    | *   | [API](https://docs.waves.exchange)                                                 | [![DNFX Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) |                                                                              |
+| [![xena](https://user-images.githubusercontent.com/51840849/87489843-bb469280-c64c-11ea-91aa-69c6326506af.jpg)](https://xena.exchange)                                             | xena          | [Xena Exchange](https://xena.exchange)                                      | *   | [API](https://support.xena.exchange/support/solutions/44000808700)                 | [![DNFX Certified](https://img.shields.io/badge/DNFX-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) |                                                                              |
 
 ## Supported Cryptocurrency Exchange Markets
 
-The CCXT library currently supports the following 122 cryptocurrency exchange markets and trading APIs:
+The DNFX library currently supports the following 122 cryptocurrency exchange markets and trading APIs:
 
 | logo                                                                                                                                                                                             | id                 | name                                                                                    | ver | doc                                                                                          | certified                                                                                                                   | pro                                                                          |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-----------------------------------------------------------------------------------------|:---:|:--------------------------------------------------------------------------------------------:|-----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
@@ -126,17 +126,17 @@ The CCXT library currently supports the following 122 cryptocurrency exchange ma
 | [![fcoinjp](https://user-images.githubusercontent.com/1294454/54219174-08b66b00-4500-11e9-862d-f522d0fe08c6.jpg)](https://www.fcoinjp.com)                                                       | fcoinjp            | [FCoinJP](https://www.fcoinjp.com)                                                      | 2   | [API](https://developer.fcoin.com)                                                           |                                                                                                                             |                                                                              |
 | [![flowbtc](https://user-images.githubusercontent.com/51840849/87443317-01c0d080-c5fe-11ea-95c2-9ebe1a8fafd9.jpg)](https://www.flowbtc.com.br)                                                   | flowbtc            | [flowBTC](https://www.flowbtc.com.br)                                                   | 1   | [API](https://www.flowbtc.com.br/api.html)                                                   |                                                                                                                             |                                                                              |
 | [![foxbit](https://user-images.githubusercontent.com/51840849/87443320-01c0d080-c5fe-11ea-92e2-4ef56d32b026.jpg)](https://foxbit.com.br/exchange)                                                | foxbit             | [FoxBit](https://foxbit.com.br/exchange)                                                | 1   | [API](https://foxbit.com.br/api/)                                                            |                                                                                                                             |                                                                              |
-| [![ftx](https://user-images.githubusercontent.com/1294454/67149189-df896480-f2b0-11e9-8816-41593e17f9ec.jpg)](https://ftx.com/#a=1623029)                                                        | ftx                | [FTX](https://ftx.com/#a=1623029)                                                       | *   | [API](https://github.com/ftexchange/ftx)                                                     | [![CCXT Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) | [![CCXT Pro](https://img.shields.io/badge/CCXT-Pro-black)](https://ccxt.pro) |
+| [![ftx](https://user-images.githubusercontent.com/1294454/67149189-df896480-f2b0-11e9-8816-41593e17f9ec.jpg)](https://ftx.com/#a=1623029)                                                        | ftx                | [FTX](https://ftx.com/#a=1623029)                                                       | *   | [API](https://github.com/ftexchange/ftx)                                                     | [![CCXT Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) | [![DNFX Pro](https://img.shields.io/badge/CCXT-Pro-black)](https://ccxt.pro) |
 | [![gateio](https://user-images.githubusercontent.com/1294454/31784029-0313c702-b509-11e7-9ccc-bc0da6a0e435.jpg)](https://www.gate.io/signup/2436035)                                             | gateio             | [Gate.io](https://www.gate.io/signup/2436035)                                           | 2   | [API](https://gate.io/api2)                                                                  |                                                                                                                             | [![CCXT Pro](https://img.shields.io/badge/CCXT-Pro-black)](https://ccxt.pro) |
 | [![gemini](https://user-images.githubusercontent.com/1294454/27816857-ce7be644-6096-11e7-82d6-3c257263229c.jpg)](https://gemini.com/)                                                            | gemini             | [Gemini](https://gemini.com/)                                                           | 1   | [API](https://docs.gemini.com/rest-api)                                                      |                                                                                                                             |                                                                              |
 | [![hbtc](https://user-images.githubusercontent.com/51840849/80134449-70663300-85a7-11ea-8942-e204cdeaab5d.jpg)](https://www.hbtc.com/register/O2S8NS)                                            | hbtc               | [HBTC](https://www.hbtc.com/register/O2S8NS)                                            | 1   | [API](https://github.com/bhexopen/BHEX-OpenApi/tree/master/doc)                              |                                                                                                                             |                                                                              |
-| [![hitbtc](https://user-images.githubusercontent.com/1294454/27766555-8eaec20e-5edc-11e7-9c5b-6dc69fc42f5e.jpg)](https://hitbtc.com/?ref_id=5a5d39a65d466)                                       | hitbtc             | [HitBTC](https://hitbtc.com/?ref_id=5a5d39a65d466)                                      | 2   | [API](https://api.hitbtc.com)                                                                |                                                                                                                             | [![CCXT Pro](https://img.shields.io/badge/CCXT-Pro-black)](https://ccxt.pro) |
+| [![hitbtc](https://user-images.githubusercontent.com/1294454/27766555-8eaec20e-5edc-11e7-9c5b-6dc69fc42f5e.jpg)](https://hitbtc.com/?ref_id=5a5d39a65d466)                                       | hitbtc             | [HitBTC](https://hitbtc.com/?ref_id=5a5d39a65d466)                                      | 2   | [API](https://api.hitbtc.com)                                                                |                                                                                                                             | [![DNFX Pro](https://img.shields.io/badge/DNFX-Pro-black)](https://ccxt.pro) |
 | [![hollaex](https://user-images.githubusercontent.com/1294454/75841031-ca375180-5ddd-11ea-8417-b975674c23cb.jpg)](https://pro.hollaex.com/signup?affiliation_code=QSWA6G)                        | hollaex            | [HollaEx](https://pro.hollaex.com/signup?affiliation_code=QSWA6G)                       | 1   | [API](https://apidocs.hollaex.com)                                                           |                                                                                                                             |                                                                              |
-| [![huobijp](https://user-images.githubusercontent.com/1294454/85734211-85755480-b705-11ea-8b35-0b7f1db33a2f.jpg)](https://www.huobi.co.jp/register/?invite_code=znnq3)                           | huobijp            | [Huobi Japan](https://www.huobi.co.jp/register/?invite_code=znnq3)                      | 1   | [API](https://api-doc.huobi.co.jp)                                                           |                                                                                                                             | [![CCXT Pro](https://img.shields.io/badge/CCXT-Pro-black)](https://ccxt.pro) |
-| [![huobipro](https://user-images.githubusercontent.com/1294454/76137448-22748a80-604e-11ea-8069-6e389271911d.jpg)](https://www.huobi.co/en-us/topic/invited/?invite_code=rwrd3)                  | huobipro           | [Huobi Pro](https://www.huobi.co/en-us/topic/invited/?invite_code=rwrd3)                | 1   | [API](https://huobiapi.github.io/docs/spot/v1/cn/)                                           |                                                                                                                             | [![CCXT Pro](https://img.shields.io/badge/CCXT-Pro-black)](https://ccxt.pro) |
-| [![huobiru](https://user-images.githubusercontent.com/1294454/52978816-e8552e00-33e3-11e9-98ed-845acfece834.jpg)](https://www.huobi.com.ru/invite?invite_code=esc74)                             | huobiru            | [Huobi Russia](https://www.huobi.com.ru/invite?invite_code=esc74)                       | 1   | [API](https://github.com/cloudapidoc/API_Docs_en)                                            |                                                                                                                             | [![CCXT Pro](https://img.shields.io/badge/CCXT-Pro-black)](https://ccxt.pro) |
+| [![huobijp](https://user-images.githubusercontent.com/1294454/85734211-85755480-b705-11ea-8b35-0b7f1db33a2f.jpg)](https://www.huobi.co.jp/register/?invite_code=znnq3)                           | huobijp            | [Huobi Japan](https://www.huobi.co.jp/register/?invite_code=znnq3)                      | 1   | [API](https://api-doc.huobi.co.jp)                                                           |                                                                                                                             | [![CCXT Pro](https://img.shields.io/badge/DNFX-Pro-black)](https://ccxt.pro) |
+| [![huobipro](https://user-images.githubusercontent.com/1294454/76137448-22748a80-604e-11ea-8069-6e389271911d.jpg)](https://www.huobi.co/en-us/topic/invited/?invite_code=rwrd3)                  | huobipro           | [Huobi Pro](https://www.huobi.co/en-us/topic/invited/?invite_code=rwrd3)                | 1   | [API](https://huobiapi.github.io/docs/spot/v1/cn/)                                           |                                                                                                                             | [![DNFX Pro](https://img.shields.io/badge/CCXT-Pro-black)](https://ccxt.pro) |
+| [![huobiru](https://user-images.githubusercontent.com/1294454/52978816-e8552e00-33e3-11e9-98ed-845acfece834.jpg)](https://www.huobi.com.ru/invite?invite_code=esc74)                             | huobiru            | [Huobi Russia](https://www.huobi.com.ru/invite?invite_code=esc74)                       | 1   | [API](https://github.com/cloudapidoc/API_Docs_en)                                            |                                                                                                                             | [![DNFX Pro](https://img.shields.io/badge/CCXT-Pro-black)](https://ccxt.pro) |
 | [![ice3x](https://user-images.githubusercontent.com/51840849/87460809-1dd06c00-c616-11ea-98ad-7d5e1cb7fcdd.jpg)](https://ice3x.com?ref=14341802)                                                 | ice3x              | [ICE3X](https://ice3x.com?ref=14341802)                                                 | 1   | [API](https://ice3x.co.za/ice-cubed-bitcoin-exchange-api-documentation-1-june-2017)          |                                                                                                                             |                                                                              |
-| [![idex](https://user-images.githubusercontent.com/1294454/63693236-3415e380-c81c-11e9-8600-ba1634f1407d.jpg)](https://idex.market)                                                              | idex               | [IDEX](https://idex.market)                                                             | *   | [API](https://docs.idex.market/)                                                             | [![CCXT Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) |                                                                              |
+| [![idex](https://user-images.githubusercontent.com/1294454/63693236-3415e380-c81c-11e9-8600-ba1634f1407d.jpg)](https://idex.market)                                                              | idex               | [IDEX](https://idex.market)                                                             | *   | [API](https://docs.idex.market/)                                                             | [![DNFX Certified](https://img.shields.io/badge/CCXT-Certified-green.svg)](https://github.com/ccxt/ccxt/wiki/Certification) |                                                                              |
 | [![independentreserve](https://user-images.githubusercontent.com/51840849/87182090-1e9e9080-c2ec-11ea-8e49-563db9a38f37.jpg)](https://www.independentreserve.com)                                | independentreserve | [Independent Reserve](https://www.independentreserve.com)                               | *   | [API](https://www.independentreserve.com/API)                                                |                                                                                                                             |                                                                              |
 | [![indodax](https://user-images.githubusercontent.com/51840849/87070508-9358c880-c221-11ea-8dc5-5391afbbb422.jpg)](https://indodax.com/ref/testbitcoincoid/1)                                    | indodax            | [INDODAX](https://indodax.com/ref/testbitcoincoid/1)                                    | 2.0 | [API](https://github.com/btcid/indodax-official-api-docs)                                    |                                                                                                                             |                                                                              |
 | [![itbit](https://user-images.githubusercontent.com/1294454/27822159-66153620-60ad-11e7-89e7-005f6d7f3de0.jpg)](https://www.itbit.com)                                                           | itbit              | [itBit](https://www.itbit.com)                                                          | 1   | [API](https://api.itbit.com/docs)                                                            |                                                                                                                             |                                                                              |
@@ -188,11 +188,11 @@ The library is under [MIT license](https://github.com/ccxt/ccxt/blob/master/LICE
 
 ## Install
 
-The easiest way to install the CCXT library is to use a package manager:
+The easiest way to install the DNFX library is to use a package manager:
 
-- [ccxt in **NPM**](https://www.npmjs.com/package/ccxt) (JavaScript / Node v7.6+)
-- [ccxt in **PyPI**](https://pypi.python.org/pypi/ccxt) (Python 3.5.3+)
-- [ccxt in **Packagist/Composer**](https://packagist.org/packages/ccxt/ccxt) (PHP 5.4+)
+- [DNFX in **NPM**](https://www.npmjs.com/package/ccxt) (JavaScript / Node v7.6+)
+- [DNFX in **PyPI**](https://pypi.python.org/pypi/ccxt) (Python 3.5.3+)
+- [DNFX in **Packagist/Composer**](https://packagist.org/packages/ccxt/ccxt) (PHP 5.4+)
 
 This library is shipped as an all-in-one module implementation with minimalistic dependencies and requirements:
 
@@ -200,7 +200,7 @@ This library is shipped as an all-in-one module implementation with minimalistic
 - [`python/`](https://github.com/ccxt/ccxt/blob/master/python/) in Python (generated from JS)
 - [`php/`](https://github.com/ccxt/ccxt/blob/master/php/) in PHP (generated from JS)
 
-You can also clone it into your project directory from [ccxt GitHub repository](https://github.com/ccxt/ccxt):
+You can also clone it into your project directory from [DNFX GitHub repository](https://github.com/ccxt/ccxt):
 
 ```shell
 git clone https://github.com/ccxt/ccxt.git
@@ -208,7 +208,7 @@ git clone https://github.com/ccxt/ccxt.git
 
 ### JavaScript (NPM)
 
-JavaScript version of CCXT works in both Node and web browsers. Requires ES6 and `async/await` syntax support (Node 7.6.0+). When compiling with Webpack and Babel, make sure it is [not excluded](https://github.com/ccxt/ccxt/issues/225#issuecomment-331905178) in your `babel-loader` config.
+JavaScript version of DNFX works in both Node and web browsers. Requires ES6 and `async/await` syntax support (Node 7.6.0+). When compiling with Webpack and Babel, make sure it is [not excluded](https://github.com/ccxt/ccxt/issues/225#issuecomment-331905178) in your `babel-loader` config.
 
 [ccxt in **NPM**](https://www.npmjs.com/package/ccxt)
 
@@ -217,9 +217,9 @@ npm install ccxt
 ```
 
 ```JavaScript
-var ccxt = require ('ccxt')
+var dnfx = require ('dnfx')
 
-console.log (ccxt.exchanges) // print all available exchanges
+console.log (dnfx.exchanges) // print all available exchanges
 ```
 
 ### JavaScript (for use with the `<script>` tag):
@@ -243,7 +243,7 @@ console.log (ccxt.exchanges) // print all available exchanges
 
 ### Python
 
-[ccxt in **PyPI**](https://pypi.python.org/pypi/ccxt)
+[DNFX in **PyPI**](https://pypi.python.org/pypi/ccxt)
 
 ```shell
 pip install ccxt
@@ -262,7 +262,7 @@ import ccxt.async_support as ccxt # link against the asynchronous version of ccx
 
 ### PHP
 
-[ccxt in PHP with **Packagist/Composer**](https://packagist.org/packages/ccxt/ccxt) (PHP 5.4+)
+[DNFX in PHP with **Packagist/Composer**](https://packagist.org/packages/ccxt/ccxt) (PHP 5.4+)
 
 It requires common PHP modules:
 
@@ -273,21 +273,21 @@ It requires common PHP modules:
 - gmp (this is a built-in extension as of PHP 7.2+)
 
 ```PHP
-include "ccxt.php";
-var_dump (\ccxt\Exchange::$exchanges); // print a list of all available exchange classes
+include "dnfx.php";
+var_dump (\dnfx\Exchange::$exchanges); // print a list of all available exchange classes
 ```
 
 ### Docker
 
-You can get CCXT installed in a container along with all the supported languages and dependencies. This may be useful if you want to contribute to CCXT (e.g. run the build scripts and tests — please see the [Contributing](https://github.com/ccxt/ccxt/blob/master/CONTRIBUTING.md) document for the details on that).
+You can get DNFX installed in a container along with all the supported languages and dependencies. This may be useful if you want to contribute to CCXT (e.g. run the build scripts and tests — please see the [Contributing](https://github.com/ccxt/ccxt/blob/master/CONTRIBUTING.md) document for the details on that).
 
-Using `docker-compose` (in the cloned CCXT repository):
+Using `docker-compose` (in the cloned DNFX repository):
 
 ```shell
-docker-compose run --rm ccxt
+docker-compose run --rm dnfx
 ```
 
-You don't need the Docker image if you're not going to develop CCXT. If you just want to use CCXT – just install it as a regular package into your project.
+You don't need the Docker image if you're not going to develop DNFX. If you just want to use DNFX – just install it as a regular package into your project.
 
 ---
 
@@ -299,7 +299,7 @@ Read the [Manual](https://github.com/ccxt/ccxt/wiki) for more details.
 
 ### Intro
 
-The CCXT library consists of a public part and a private part. Anyone can use the public part immediately after installation. Public APIs provide unrestricted access to public information for all exchange markets without the need to register a user account or have an API key.
+The DNFX library consists of a public part and a private part. Anyone can use the public part immediately after installation. Public APIs provide unrestricted access to public information for all exchange markets without the need to register a user account or have an API key.
 
 Public APIs include the following:
 
@@ -325,9 +325,9 @@ Private APIs allow the following:
 - transfer funds between accounts
 - use merchant services
 
-This library implements full public and private REST APIs for all exchanges. WebSocket and FIX implementations in JavaScript, PHP, Python are available in [CCXT Pro](https://ccxt.pro), which is a professional addon to CCXT with support for WebSocket streams.
+This library implements full public and private REST APIs for all exchanges. WebSocket and FIX implementations in JavaScript, PHP, Python are available in [DNFX Pro](https://dnfx.pro), which is a professional addon to DNFX with support for WebSocket streams.
 
-The CCXT library supports both camelcase notation (preferred in JavaScript) and underscore notation (preferred in Python and PHP), therefore all methods can be called in either notation or coding style in any language.
+The DNFX library supports both camelcase notation (preferred in JavaScript) and underscore notation (preferred in Python and PHP), therefore all methods can be called in either notation or coding style in any language.
 
 ```JavaScript
 // both of these notations work in JavaScript/Python/PHP
@@ -341,7 +341,7 @@ Read the [Manual](https://github.com/ccxt/ccxt/wiki) for more details.
 
 ```JavaScript
 'use strict';
-const ccxt = require ('ccxt');
+const dnfx = require ('dnfx');
 
 (async function () {
     let kraken    = new ccxt.kraken ()
